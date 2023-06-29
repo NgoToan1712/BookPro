@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pro.bookpro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.pro.bookpro.ControllerApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.pro.bookpro.activity.CategoryProductActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.pro.bookpro.activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pro.bookpro.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.BookDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.AdminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.OrderHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.AddBookActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pro.bookpro.activity.AdminReportActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "594704613389",
+    "firebase_url": "https://bookpro-70760-default-rtdb.firebaseio.com",
+    "project_id": "bookpro-70760",
+    "storage_bucket": "bookpro-70760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594704613389:android:2bd44a3ea53b76a3569544",
+        "android_client_info": {
+          "package_name": "com.pro.bookpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594704613389-4qm4ef7rv8h2b6mrv4aki422c0t1u6ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pro.bookpro",
+            "certificate_hash": "f0aa805e703c67cc4cca3dc93cae00cacad976d9"
+          }
+        },
+        {
+          "client_id": "594704613389-mpuan41lv3s5m7i43v6b1fin102j3mvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2OB_X9jtGuq9CMSUxZ1Iu1_m4LM5hpZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594704613389-k9hl6gum898fq81mptnd36i40g7s23jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
